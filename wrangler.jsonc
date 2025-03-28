@@ -5,9 +5,3 @@
     "directory": "./dist"
   }
 }
-
-{
-    "name": "worker-name",
-    "compatibility_date": "2025-03-28",
-    "main": "src/index.ts"
-  }
