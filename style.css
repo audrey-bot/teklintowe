@@ -1,0 +1,258 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: SimSun;
+    src: url("assets/font/DFSinSoStd-W3\ \(2\).otf") format("opentype");
+}
+
+@font-face {
+    font-family: SimSun;
+    src: url("assets/font/SIMSUN.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: DFMincho;
+    src: url("assets/font/DFHSMincho-W7-WIN-RKSJ-H-01.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: DFMincho2;
+    src: url("assets/font/DFHSMincho-W7-WINP-RKSJ-H-02.ttf")  format("truetype");
+}
+
+@font-face {
+    font-family: DFMincho3;
+    src: url("assets/font/DFHSMincho-W7-WING-RKSJ-H-03.ttf")  format("truetype");
+}
+
+.mincho{
+    font-family: DFMincho3;
+    font-style: italic;
+    font-size: 32px;     
+    color: #909090;
+}
+
+.mincho2{
+    font-family: DFMincho3;
+    font-size: 13px;     
+    color: #909090;
+}
+
+.ascii{
+    position: relative;
+    width:391px;
+    height: 300px;
+    font-family: DFMincho3;
+    font-size: 6px;
+}
+
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    margin-top:60px;
+    margin-left:60px;
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    align-items: center; /* Vertically aligns the items in the middle */
+}
+
+.line {
+    width: 100vw; /* Full width of the viewport */
+    position: absolute; /* Ensures it's independent of its parent container */
+    left: 0; /* Aligns it to the start of the page */
+    z-index: 1; /* Places it above or below other elements as needed */
+}
+
+
+
+.profile{
+    flex: 1; 
+
+}
+
+.profile-gif{
+    width: 800px; /* Ensure it’s the size you want */
+    height: auto; 
+    margin: 0;
+    padding: 0;
+}
+
+.storepics-container{
+    width:1300px;
+    margin-right: 90px;
+    margin-left:10px
+   
+}
+
+
+body {
+    font-family: DFMincho3;
+    background-image: url(bg2_2.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    width: 100%; /* Use full screen width */
+    max-width: 100%; /* Avoid overflow */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+
+
+.grid {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". ."
+      ". .";
+     
+  }
+  
+
+#flex {
+    display: flex;
+} 
+
+
+
+main {
+    flex: 1;
+    padding: 0px;
+    margin:0;
+    order: 2;
+    margin-right: 100px;
+}
+
+
+.gallery{
+    display: inline-block;
+    border: 5px solid rgb(34, 31, 43);
+    margin: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 480px;
+    height: 640px;
+    margin-left:70px;
+  }
+  
+  .gallery:hover{
+    border:2px dotted rgb(91, 162, 166);
+  }
+  
+  .gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .gallery-wide{
+    display: inline-block;
+    border: 5px solid rgb(34, 31, 43);
+    margin: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 640px;
+    height: 480px;
+  }
+  
+  .gallery-wide:hover{
+    border:2px dotted rgb(91, 162, 166);
+  }
+  
+  .gallery-wide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+footer {
+    background-color: #13092D;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    margin-left: -10px;
+}
+
+h1{
+    font-family: DFMincho3;
+    font-size: 30px;
+    color: #909090;
+}
+
+
+h2{
+    font-family: DFMincho3;
+    font-size: 30px;
+    color: #909090;
+    font-size: medium;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: DFMincho3;
+    font-size: 30px;
+    color: #787693;
+    font-size: x-small;
+    margin-top: -45px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-family: DFMincho3;
+    font-size: 30px;
+    color: #909090;
+    font-size: x-small;
+    margin-top: -45px;
+    margin-bottom: 50px;
+}
+
+#congrat{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+#info{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+
+a {
+    color: #787693;
+    text-decoration: none;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+  @media (max-width: 767px) {
+    body {
+        width: 1024px;
+        overflow-x: scroll; /* Allows scrolling horizontally */
+    }
+}
