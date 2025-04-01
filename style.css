@@ -80,7 +80,7 @@ html, body {
 }
 
 .profile-gif{
-    width: 800px; /* Ensure it’s the size you want */
+    width: 700px; /* Ensure it’s the size you want */
     height: auto; 
     margin: 0;
     padding: 0;
@@ -105,7 +105,15 @@ body {
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
+.align2{
+    width:1300px;
+    margin-left: -33px;
+}
 
+
+.picturealign{
+    margin-left:-78px;
+}
 
 .grid {  
     display: grid;
@@ -118,7 +126,6 @@ body {
       ". ."
       ". ."
       ". .";
-     
   }
   
 
