@@ -86,12 +86,12 @@ html, body {
     padding: 0;
 }
 
-/* .storepics-container{
+.storepics-container{
     width:1300px;
     margin-right: 90px;
     margin-left:10px
    
-} */
+}
 
 
 body {
@@ -105,15 +105,15 @@ body {
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-/* .align2{
+.align2{
     width:1300px;
     margin-left: -33px;
-} */
+}
 
 
-/* .picturealign{
+.picturealign{
     margin-left:-78px;
-} */
+}
 
 .grid {  
     display: grid;
