@@ -80,18 +80,18 @@ html, body {
 }
 
 .profile-gif{
-    width: 700px; /* Ensure it’s the size you want */
+    width: 600px; /* Ensure it’s the size you want */
     height: auto; 
     margin: 0;
     padding: 0;
 }
 
-.storepics-container{
+/* .storepics-container{
     width:1300px;
     margin-right: 90px;
     margin-left:10px
    
-}
+} */
 
 
 body {
