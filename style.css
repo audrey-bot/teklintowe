@@ -107,14 +107,9 @@ body {
 
 .align2{
     width:88%;
-    margin-left: -48px;
 }
 
 
-.picturealign{
-  
-    margin-left:-120px;
-}
 
 .grid {  
     display: grid;
