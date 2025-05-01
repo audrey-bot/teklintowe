@@ -96,7 +96,7 @@ html, body {
 
 body {
     font-family: DFMincho3;
-    background-image: url(bg2_2.gif);
+    background-image: url(https://i.postimg.cc/BQ8Tm9yg/bg2-2.gif);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -106,18 +106,25 @@ body {
 }
 
 .align2{
-    width:60%;
+    width:100%;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-bottom: 0;
     padding-bottom: 0;
 
 }
 
+.picturealign2{
+    display: inline-block;
+    text-align: center;
+    margin-left:70px;
+    margin-bottom: -500px;
+}
+
 
 .align3{
     width:90%;
-    margin-left: 100px;
+    margin-left: 70px;
    
 }
 
@@ -125,7 +132,7 @@ body {
 .picturealign{
     display: inline-block;
     text-align: center;
-    margin-left:220px;
+    margin-left:160px;
     margin-bottom: -500px;
 }
 
